@@ -1,9 +1,9 @@
 import React from 'react';
 import {useState,useEffect} from 'react';
-import Pagination from './Pagination';
-//import logo from './logo.svg';
-// import images from './images.json';
-// import ImageContainer from './ImageContainer';
+//import Pagination from './Pagination';
+import logo from './logo.svg';
+import images from './images.json';
+import ImageContainer from './ImageContainer';
 import './App.css';
 
 
@@ -14,8 +14,8 @@ function App() {
 
   return (
 <>
-<Pagination /> 
-{/* <div className='app'>
+{/* <Pagination />  */}
+<div className='app'>
   <div className='container'>
     {images.map(res => {
       return (
@@ -29,7 +29,7 @@ function App() {
         </div>
       )
     })}  </div>
-</div> */}
+</div>
 
 </>
   );
