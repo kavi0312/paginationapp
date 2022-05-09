@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+table {
+  
+  width: 100%;
+  border: 2px solid;
+  border-radius: 20px 0 0 0;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #baa0ee;
+  color: white;
+  border-radius: 20px 0 20px 0px;
+}
+tr:hover {background-color: rgb(222, 175, 158);}
+
+.btn{
+  padding: 7px;
+  font-size: medium;
+  margin: 5px;
+  border: 2px solid;  
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+
+.inpt{
+width: 100%;
+padding: 12px 20px;
+box-sizing: border-box;
+border: 1px solid rgb(180, 155, 155);
+outline: none;
+border-radius: 10px;
+}
+
+.inpt:focus {
+background-color: lightblue;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+}
+.wrapper {
+  padding: 1em 0;
+}
+
+.popupdata{
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(135, 102, 102); /* Fallback color */
+  background-color: rgb(76, 70, 70); /* Black w/ opacity */
+
+ }
+
+ .modal-content {
+   text-align: center; 
+   background-color: #e7c7c7;
+    font:white;
+    margin: 0 400px 0 400px;
+    padding: 10px;
+    border-radius: 20px 0;
+    border: 1px solid #888;
+    box-shadow: 0 4px 8px 0 rgb(161, 138, 138),0 6px 20px 0 rgb(164, 71, 71);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+ 
+
